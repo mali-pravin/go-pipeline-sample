@@ -64,3 +64,9 @@ pipeline:
             type: String
             description: ""
             value: stageVarValue
+  properties:
+    ci:
+      codebase:
+        connectorRef: malipravingithub
+        repoName: go-pipeline-sample
+        build: <+input>
