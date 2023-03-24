@@ -1,10 +1,8 @@
-  tags: {}
-  properties:
-    ci:
-      codebase:
-        connectorRef: <+input>
-        repoName: go-pipeline-sample
-        build: <+input>
+pipeline:
+  name: go-pipeline-sample
+  identifier: gopipelinesample
+  projectIdentifier: demo
+  orgIdentifier: default
   stages:
     - stage:
         name: "build test and run "
